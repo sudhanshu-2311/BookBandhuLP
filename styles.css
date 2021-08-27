@@ -1,0 +1,158 @@
+/* Google font se nhi kiya..dekhna h ekbar chal bhi raha h ki nhi  */
+body{
+   font-family: Baskerville;
+}
+/* Intro Section */
+#Intro{
+  background-color: #FFF8DE;
+  padding: 3% 5% 0 6%;
+}
+.container-fluid{
+padding-left: 0px;
+padding-right: 0px;
+}
+/* Navbar */
+.imagelogo{
+  width: 30px;
+  height: 30px;
+  padding-right: 7px;
+}
+.nav-item{
+   margin-left: 25px;
+   margin-right: 25px;
+}
+.btn{
+  background-color: #CB8600;
+   border-radius: 0.7rem;
+   color: white;
+}
+.fab{
+  background-color: #25D366;
+  margin-right: 3px;
+  color: #CB8600;
+}
+/* Intro Part */
+h1{
+  margin-top: 20%;
+  margin-bottom: 5%;
+  font-size: 48px;
+}
+.features{
+    font-size: 25px;
+}
+.girlimage{
+width: 234.4px;
+height: 234.4px;
+margin-top: 37%;
+}
+.sellnow{
+   width: 230px;
+   height: 45px;
+   margin-bottom: 70px;
+   margin-top: 15%;
+   font-size: 22px;
+}
+/* Media Query for Intro Part */
+@media (max-width: 770px){
+.nav-item{
+   display: none;
+}
+}
+@media (max-width: 457px){
+  h1{
+      margin-bottom: 10%;
+  }
+}
+@media (max-width: 992px)
+{
+.girlimage{
+  margin: 10% 0;
+}
+}
+/* Procedure Section */
+#PROCEDURE{
+background-color: #CDFFF3;
+padding: 2% 10%;
+}
+.procedureimages1{
+  width: 100%;
+  margin-top: 30px;
+}
+.procedureimages2{
+  width: 100%;
+  margin-top: 30px;
+}
+.procedureimages3{
+  width: 100%;
+  margin-top: 15px;
+}
+.arrowimage{
+  width: 60%;
+  height: 4%;
+  margin: 120px 0;
+}
+h4{
+  margin-bottom: 30px;
+}
+/* Media Query for Procedure Section*/
+@media (max-width: 439px) {
+  .switch{
+    display: block;
+  }
+  .procedureimages1{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+  }
+  .procedureimages2{
+    width: 200px;
+    height: 150px;
+    margin-top: 0px;
+  }
+  .procedureimages3{
+    width: 200px;
+    height: 150px;
+  }
+  .arrowimage{
+    width: 70px;
+    height: 12px;
+    transform: rotate(-90deg);
+    margin-left: 35%;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  h4{
+    margin-bottom: 0px;
+  }
+  .different{
+    margin-bottom: 20px;
+  }
+}
+/* Review Section */
+#REVIEWS{
+  background-color: #F3F3F3;
+  padding-left: 6%;
+  padding-right: 5%;
+}
+.card{
+  width: 80%;
+  height: 80%;
+  display: inline-block;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.card-title{
+  margin-bottom: 6%;
+}
+.card-subtitle{
+  margin-bottom: 4%;
+}
+.fas{
+  color: #FF9600;
+}
+/* Media Query for Review Section */
+@media (max-width: 689px) {
+.change{
+  display: block;
+}
+}
