@@ -2,127 +2,125 @@
 
 html,
 body {
-  width: 100%;
-  height: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
   font-family: "Baskervville", serif;
 }
 
-
 /* Intro Section */
-#Intro{
-  background-color: #FFF8DE;
+#Intro {
+  background-color: #fff8de;
   padding: 3% 5% 0 6%;
 }
-.container-fluid{
-padding-left: 0px;
-padding-right: 0px;
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 /* Navbar */
-.imagelogo{
+.imagelogo {
   width: 30px;
   height: 30px;
   padding-right: 7px;
 }
-.nav-item{
-   margin-left: 25px;
-   margin-right: 25px;
+.nav-item {
+  margin-left: 25px;
+  margin-right: 25px;
 }
-.btn{
-  background-color: #CB8600;
-   border-radius: 0.7rem;
-   color: white;
+.btn {
+  background-color: #cb8600;
+  border-radius: 0.7rem;
+  color: white;
 }
-.fab{
-  background-color: #25D366;
+.w1 {
+  background-color: #25d366;
   margin-right: 3px;
-  color: #CB8600;
+  color: #cb8600;
+  font-size: 1.3rem;
 }
+
 /* Intro Part */
-h1{
+h1 {
   margin-top: 20%;
   margin-bottom: 5%;
   font-size: 48px;
 }
-.features{
-    font-size: 25px;
+.features {
+  font-size: 25px;
 }
-.girlimage{
-width: 234.4px;
-height: 234.4px;
-margin-top: 37%;
+.girlimage {
+  width: 234.4px;
+  height: 234.4px;
+  margin-top: 37%;
 }
-.sellnow{
-   width: 230px;
-   height: 45px;
-   margin-bottom: 70px;
-   margin-top: 15%;
-   font-size: 22px;
+.sellnow {
+  width: 230px;
+  height: 45px;
+  margin-bottom: 70px;
+  margin-top: 15%;
+  font-size: 22px;
 }
 /* Media Query for Intro Part */
-@media (max-width: 770px){
-.nav-item{
-   display: none;
-}
-}
-@media (max-width: 457px){
-  h1{
-      margin-bottom: 10%;
+@media (max-width: 770px) {
+  .nav-item {
+    display: none;
   }
 }
-@media (max-width: 992px)
-{
-.girlimage{
-  margin: 10% 0;
+@media (max-width: 457px) {
+  h1 {
+    margin-bottom: 10%;
+  }
 }
+@media (max-width: 992px) {
+  .girlimage {
+    margin: 10% 0;
+  }
 }
 /* Procedure Section */
-#PROCEDURE{
-background-color: #CDFFF3;
-padding: 2% 10%;
+#PROCEDURE {
+  background-color: #cdfff3;
+  padding: 2% 10%;
 }
-.procedureimages1{
+.procedureimages1 {
   width: 100%;
   margin-top: 30px;
 }
-.procedureimages2{
+.procedureimages2 {
   width: 100%;
   margin-top: 30px;
 }
-.procedureimages3{
+.procedureimages3 {
   width: 100%;
   margin-top: 15px;
 }
-.arrowimage{
+.arrowimage {
   width: 60%;
   height: 4%;
   margin: 120px 0;
 }
-h4{
+h4 {
   margin-bottom: 30px;
 }
 /* Media Query for Procedure Section*/
 @media (max-width: 439px) {
-  .switch{
+  .switch {
     display: block;
   }
-  .procedureimages1{
+  .procedureimages1 {
     width: 200px;
     height: 150px;
     margin-top: 20px;
   }
-  .procedureimages2{
+  .procedureimages2 {
     width: 200px;
     height: 150px;
     margin-top: 0px;
   }
-  .procedureimages3{
+  .procedureimages3 {
     width: 200px;
     height: 150px;
   }
-  .arrowimage{
+  .arrowimage {
     width: 70px;
     height: 12px;
     transform: rotate(-90deg);
@@ -130,54 +128,50 @@ h4{
     margin-bottom: 10px;
     margin-top: 50px;
   }
-  h4{
+  h4 {
     margin-bottom: 0px;
   }
-  .different{
+  .different {
     margin-bottom: 20px;
   }
 }
 /* Review Section */
-#REVIEWS{
-  background-color: #F3F3F3;
-  padding-left: 6%;
-  padding-right: 5%;
+#REVIEWS {
+  background-color: #f3f3f3;
+  padding: 3% 5% 5% 6%;
 }
-.card{
+.card {
   width: 80%;
   height: 80%;
   display: inline-block;
   margin-top: 8%;
   margin-bottom: 8%;
 }
-.card-title{
+.card-title {
   margin-bottom: 6%;
 }
-.card-subtitle{
+.card-subtitle {
   margin-bottom: 4%;
 }
-.fas{
-  color: #FF9600;
+.fas {
+  color: #ff9600;
 }
 /* Media Query for Review Section */
 @media (max-width: 689px) {
-.change{
-  display: block;
+  .change {
+    display: block;
+  }
 }
-}
-
-
-
 
 /* About Us */
 
 #AboutUs {
-  background-color: #f3f3f3;
-  padding: 8% 2%;
+  background-color: #cdfff3;
+  padding: 10% 4% 8% 4%;
 }
 
 .usimg {
-  width: 50%;
+  width: 60%;
   border-radius: 2%;
   text-align: center;
   /* z-index: 1; */
@@ -217,15 +211,10 @@ h4{
 .QNA {
   background-color: #ffffff;
   margin: 20px 15px;
-  padding: 20px 30px;
+  /* padding: 20px 30px; */
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgb(146, 137, 137);
   text-align: left;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 /* Footer */
@@ -239,6 +228,13 @@ a {
   padding: 3%;
 }
 
-/* .contact {
-  padding-bottom: 3%;
-} */
+.w2 {
+  color: #08993d;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.e1 {
+  color: #df2727;
+  font-size: 1.3rem;
+}
