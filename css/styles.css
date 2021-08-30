@@ -139,6 +139,7 @@ h4 {
 #REVIEWS {
   background-color: #f3f3f3;
   padding: 3% 5% 5% 6%;
+  scroll-behavior: smooth;
 }
 .card {
   width: 80%;
@@ -168,13 +169,14 @@ h4 {
 #AboutUs {
   background-color: #cdfff3;
   padding: 8% 4% 6% 4%;
+  scroll-behavior: smooth;
 }
 
 .usimg {
-  width: 50%;
+  width: 60%;
   border-radius: 2%;
   text-align: center;
-  padding: 0% 0 0 0;
+  padding: 0% 0 5% 0;
   /* z-index: 1; */
 }
 
@@ -184,21 +186,17 @@ h4 {
   margin-right: auto;
 }
 
-/* .imgbkd {
-  position: absolute;
-  left: 10%;
-  top: 15%;
-  height: 360px;
-  width: 320px;
-  border-radius: 2%;
-  background-color: aquamarine;
-} */
-
 .aboutustext {
   /* width: 500px; */
-  padding: 8% 5% 8% 5%;
+
   text-align: center;
   vertical-align: text-bottom;
+}
+
+@media (min-width: 780px) {
+  .aboutustext {
+    padding: 6% 5% 2% 5%;
+  }
 }
 
 /* F.A.Q */
@@ -207,6 +205,7 @@ h4 {
   background-color: #fff8de;
   padding: 3%;
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 .QNA {
