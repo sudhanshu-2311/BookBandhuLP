@@ -167,13 +167,14 @@ h4 {
 
 #AboutUs {
   background-color: #cdfff3;
-  padding: 10% 4% 8% 4%;
+  padding: 8% 4% 6% 4%;
 }
 
 .usimg {
-  width: 60%;
+  width: 50%;
   border-radius: 2%;
   text-align: center;
+  padding: 0% 0 0 0;
   /* z-index: 1; */
 }
 
@@ -195,7 +196,7 @@ h4 {
 
 .aboutustext {
   /* width: 500px; */
-  padding: 10% 5% 8% 5%;
+  padding: 8% 5% 8% 5%;
   text-align: center;
   vertical-align: text-bottom;
 }
@@ -211,7 +212,6 @@ h4 {
 .QNA {
   background-color: #ffffff;
   margin: 20px 15px;
-  /* padding: 20px 30px; */
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgb(146, 137, 137);
   text-align: left;
@@ -220,12 +220,10 @@ h4 {
 /* Footer */
 
 #CTA {
+  padding: 3% 7%;
+  margin: 0 15px;
   background-color: #fff;
-  text-align: center;
-}
-
-.cta {
-  padding: 3%;
+  text-align: left;
 }
 
 .w2 {
@@ -238,3 +236,21 @@ h4 {
   color: #df2727;
   font-size: 1.3rem;
 }
+.qrcode {
+  width: 100px;
+  height: 100px;
+}
+
+.qrtext {
+  margin: 0rem;
+}
+
+.QRcode {
+  text-align: center;
+}
+
+@media (max-width: 770px) {
+  .QRcode {
+    display: none;
+  }
+} ;
