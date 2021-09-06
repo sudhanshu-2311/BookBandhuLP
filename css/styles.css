@@ -50,7 +50,6 @@ h1 {
   width: 234.4px;
   height: 234.4px;
   margin-top: 37%;
-  color: #fff8de;
 }
 .sellnow {
   width: 230px;
@@ -78,6 +77,7 @@ h1 {
 /* Procedure Section */
 #PROCEDURE {
   background-color: #cdfff3;
+  /* #C4FFF6 */
   padding: 2% 10%;
 }
 .procedureimages1 {
