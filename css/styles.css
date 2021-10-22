@@ -9,7 +9,7 @@ body {
 /* Intro Section */
 #Intro {
   background-color: #fff8de;
-  padding: 3% 5% 0 6%;
+  padding: 3% 5% 3% 6%;
 }
 .container-fluid {
   padding-left: 0px;
@@ -19,26 +19,25 @@ body {
 .imagelogo {
   width: 30px;
   height: 30px;
-  padding-right: 7px;
 }
 .nav-item {
   margin-left: 25px;
   margin-right: 25px;
 }
 .btn {
-  background-color: #cb8600;
+  background-color: #cda513;
   border-radius: 0.7rem;
   color: white;
 }
 .w1 {
   background-color: #25d366;
   margin-right: 3px;
-  color: #cb8600;
+  color: #9b8bf7;
   font-size: 1.3rem;
 }
 
 /* Intro Part */
-h1 {
+#selltext {
   margin-top: 20%;
   margin-bottom: 5%;
   font-size: 48px;
@@ -51,7 +50,7 @@ h1 {
   height: 234.4px;
   margin-top: 37%;
 }
-.sellnow {
+.sellbtn {
   width: 230px;
   height: 45px;
   margin-bottom: 70px;
@@ -74,67 +73,32 @@ h1 {
     margin: 10% 0;
   }
 }
+
 /* Procedure Section */
-#PROCEDURE {
+
+#BUYSECTION {
   background-color: #cdfff3;
   /* #C4FFF6 */
-  padding: 2% 10%;
+  padding: 3% 5% 5% 6%;
 }
-.procedureimages1 {
-  width: 100%;
-  margin-top: 30px;
+#buytext {
+  margin-top: 20%;
+  margin-bottom: 5%;
+  font-size: 45px;
+  /* font-weight: 500; */
 }
-.procedureimages2 {
-  width: 100%;
-  margin-top: 30px;
-  padding-right: 5%;
+
+.buybtn {
+  background-color: #6672e8;
+  border-radius: 0.7rem;
+  color: white;
+  width: 230px;
+  height: 45px;
+  margin-bottom: 70px;
+  margin-top: 15%;
+  font-size: 22px;
 }
-.procedureimages3 {
-  width: 100%;
-  margin-top: 15px;
-}
-.arrowimage {
-  width: 60%;
-  height: 4%;
-  margin: 120px 0;
-}
-h4 {
-  margin-bottom: 30px;
-}
-/* Media Query for Procedure Section*/
-@media (max-width: 439px) {
-  .switch {
-    display: block;
-  }
-  .procedureimages1 {
-    width: 200px;
-    height: 150px;
-    margin-top: 20px;
-  }
-  .procedureimages2 {
-    width: 200px;
-    height: 150px;
-    margin-top: 0px;
-  }
-  .procedureimages3 {
-    width: 200px;
-    height: 150px;
-  }
-  .arrowimage {
-    width: 70px;
-    height: 12px;
-    transform: rotate(-90deg);
-    margin-left: 35%;
-    margin-bottom: 10px;
-    margin-top: 50px;
-  }
-  h4 {
-    margin-bottom: 0px;
-  }
-  .different {
-    margin-bottom: 20px;
-  }
-}
+
 /* Review Section */
 #REVIEWS {
   background-color: #f3f3f3;
@@ -299,4 +263,4 @@ h4 {
   .QRcode {
     display: none;
   }
-} ;
+}
